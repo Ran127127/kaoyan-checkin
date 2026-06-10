@@ -37,7 +37,7 @@ app.use(express.static(path.join(__dirname, '../')));
 
 /* ── 根路径重定向到前端首页 ── */
 app.get('/', (_req, res) => {
-  res.redirect('/public/index.html');
+  res.redirect('/index.html');
 });
 
 /* ── API 路由 ── */
